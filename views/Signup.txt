@@ -1,0 +1,60 @@
+
+
+
+<div style='width:30%;background-color: rgb(255, 255, 255);box-shadow: 1px 1px 1px 1px rgba(201, 201, 201, 0.548);text-align: center;padding: 4px;margin: 9px;'><h1>Registration</h1> 
+
+<p><b>Username:</b>Dipta Saha</p>
+<p><b>Email:</b>sahadipta10@gmail.com</p>
+<p><b>Address:</b>chittagong</p>
+<p><b>Phone Number:</b>01711170323</p>
+<p><b>User Id:</b>111-12349</p>
+<p><b>password:</b>As123456</p>
+<p><b>Confirm Password:</b>As123456</p></div>
+
+
+<div style='width:30%;background-color: rgb(255, 255, 255);box-shadow: 1px 1px 1px 1px rgba(201, 201, 201, 0.548);text-align: center;padding: 4px;margin: 9px;'><h1>Registration</h1> 
+
+<p><b>Username:</b>Dipta Saha</p>
+<p><b>Email:</b>sahadipta10@gmail.com</p>
+<p><b>Address:</b>chittagong</p>
+<p><b>Phone Number:</b>01711170323</p>
+<p><b>User Id:</b>111-12793</p>
+<p><b>password:</b>As123456</p>
+<p><b>Confirm Password:</b>As123456</p></div>
+
+
+<div style='width:30%;background-color: rgb(255, 255, 255);box-shadow: 1px 1px 1px 1px rgba(201, 201, 201, 0.548);text-align: center;padding: 4px;margin: 9px;'><h1>Registration</h1> 
+
+<p><b>Username:</b>Dipta Saha</p>
+<p><b>Email:</b>19-39379-1@student.aiub.edu</p>
+<p><b>Address:</b>chittagong</p>
+<p><b>Phone Number:</b>01711170323</p>
+<p><b>User Id:</b>111-13237</p>
+<p><b>password:</b>As123456</p>
+<p><b>Confirm Password:</b>As123456</p></div>
+
+
+
+
+<div style='width:30%;background-color: rgb(255, 255, 255);box-shadow: 1px 1px 1px 1px rgba(201, 201, 201, 0.548);text-align: center;padding: 4px;margin: 9px;'><h1>Registration</h1> 
+
+<p><b>Username:</b>Dipta Saha</p>
+<p><b>Email:</b>sahadipta10@gmail.com</p>
+<p><b>Address:</b>korvanigong</p>
+<p><b>Phone Number:</b>01711170323</p>
+<p><b>User Id:</b>111-13689</p>
+<p><b>password:</b>Asd@1233</p>
+<p><b>Confirm Password:</b>Asd@1233</p></div>
+
+
+<div style='width:30%;background-color: rgb(255, 255, 255);box-shadow: 1px 1px 1px 1px rgba(201, 201, 201, 0.548);text-align: center;padding: 4px;margin: 9px;'><h1>Registration</h1> 
+
+<p><b>Username:</b>Dipta Saha</p>
+<p><b>Email:</b>sahadipta10@gmail.com</p>
+<p><b>Address:</b>korvanigong</p>
+<p><b>Phone Number:</b>01711170323</p>
+<p><b>User Id:</b>111-14134</p>
+<p><b>password:</b>Asd@1233</p>
+<p><b>Confirm Password:</b>Asd@1233</p></div>
+
+
