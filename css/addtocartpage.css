@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+*
+{
+    margin-top: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    
+}
+::-webkit-scrollbar-track
+{
+    border-radius: 5px;
+    box-shadow: inset 1px 0px 0px rgba(216, 211, 211, 0.548);
+
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    background-color: #464646;
+}
+body
+{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    transition: .5s;
+
+}
+div
+{
+    transition-delay: .1s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo
+{
+    width:100%;
+    height: 48px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px rgba(218, 218, 218, 0.548);
+    position:fixed;
+    z-index: 1;
+    -webkit-box-flex:1;
+    flex-wrap:wrap;
+    display:flex;
+    margin-left: -8px;
+
+}
+.logo-head
+{
+    display:flex;
+    margin-left:10px;
+    padding-top: 5px;
+}
+.logo-head h1
+{
+    font-size: 20px;
+    font-weight: 900;
+    color: #000000;
+    margin-left: 5px;
+    /*letter-spacing: 1rem;*/
+    
+}
+.logo-head img
+{
+    width: 25px;
+    height: 25px;
+}
+.head-menu
+{
+   display: flex;
+   text-align: center;
+   font-size: 1.1rem;
+   font-weight: 900;
+   position: absolute;
+   right: 0px;
+}
+.head-menu li
+{
+    width: 120px;
+   padding: 10px; 
+   border: 1px solid rgb(82, 80, 80);
+}
+
+.sub-menu 
+{
+    width: 200px;
+    display: none;
+    position: absolute;
+    right: 110px;
+    top: 50px;
+    background: #ffffff;
+    padding: 5px;
+    font-weight: 500;
+}
+.search
+{
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 0px 0px rgba(29, 29, 29, 0.548);
+    height: 40px;
+    margin-left: 150px;
+    
+
+}
+.search input
+{
+    width: 600px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    
+}
+.sub-menu ul li
+{
+    width: 150px;
+    padding: 12px;
+    border: none;
+    text-align: left;
+}
+.sub-menu a{
+    color: #535151;
+}
+
+.profile:hover .sub-menu ,.sub-menu a:hover
+{
+    display: inline;
+    color: rgb(36, 36, 36);
+}
+
+#contain
+{
+    width: 70%;
+    height: 600px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 15% ;
+    top: 5vw;
+    box-shadow: 5px 5px 5px 5px rgba(182, 182, 182, 0.548);
+    border-radius: 10px;
+}
+.boxs
+{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.items
+{
+    
+   display: flex;
+   
+}
+.ads
+{
+    margin: 20px;
+    margin-left: 600px;
+    
+}
+.ads p
+{
+    color: rgb(103, 61, 255);
+    font-weight: 700;
+}
+.title
+{
+    margin-left: 0px;
+    margin-top: 70px;
+    padding: 0px;
+}
+
+.title h1, .title p
+{
+    letter-spacing: 5px;
+    font-size: 2rem;
+    color: rgb(54, 54, 54);
+}
+.title p
+{
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    color: rgb(54, 54, 54);
+    font-weight: 900;
+    margin-bottom: -10px;
+}
+
+.img img{
+    width: 500px;
+    height: 400px;
+    margin: 100px;
+    margin-left: 10px;
+    margin-top: 30px;
+    
+    
+}
+.input input
+{
+    width: 50px;
+    height: 30px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-weight: 900;
+    margin-top: 45px;
+    margin-left: 0px;
+    
+    
+}
+.price-number
+{
+    display:flex;
+}
+
+.input
+{
+    display:flex;
+    width: 120px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.548);
+    margin-top: 30px;
+}
+.price-number p {
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.548);
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    
+}
+.input button
+{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 40px;
+    display:inline;
+    font-weight: 900;
+    font-size: 1.6rem;
+    outline: none;
+    padding-bottom:20px ;
+   
+    
+}
+.btn {
+    width: 300px;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 15px 0;
+    margin-left: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 900;
+    background-color: rgb(86, 255, 247);
+    background-image: linear-gradient(45deg,rgb(86, 86, 255),rgb(86, 255, 247));
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.548);
+  }
+  
+  .btn:hover , .order-now h4:hover{
+    color: rgb(37, 37, 37);
+  }
+  .order-now h4 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin:10px;
+    transition: 0.5s;
+    font-weight: 900;
+    color: rgb(247, 241, 241);
+  }
+  .order-now
+  {
+      width: 200px;
+      height:60px;
+      background-image: linear-gradient(45deg,rgb(184, 51, 245),rgb(255, 64, 64));
+      margin-top: -50px;
+      margin-left: 910px;
+      padding-top: 8px;
+      padding-left: 10px;
+      border-top-left-radius: 30px;
+      
+  }
+  .detalis
+  {
+      width: 500px;
+      height: 170px;
+      background-color: #ffffff;
+      position: relative;
+      margin-left:550px;
+      margin-top:-190px;
+      box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.548);
+      border-radius: 10px;
+      overflow: hidden;
+      
+
+  }
+
+  .detalis input
+  {
+      display: none;
+  }
+  .top-content
+  {
+      margin-top: 10px;
+    
+  }
+  .top-content label
+  {
+    align-items: center;
+    display: inline-block;
+    height: 100%;
+    margin: 0 35px;
+    margin-top:10px ;
+    line-height: 10px;
+    font-size: 1rem;
+    color: gray;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+   
+  }
+  .top-content label:hover {
+    color: rgb(48, 48, 48);
+    text-decoration-line: underline;
+}
+.titles
+{
+    
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 20px;
+   
+    
+    
+}
+.titles h3
+{
+    color: rgb(179, 174, 174);
+    font-size: 1rem;
+    font-weight: 500;    
+}
+.Detail-list {
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+   
+}
+.Detaild
+{
+    max-height: 90px;
+    overflow-y: scroll;
+}
+.Detaild p
+{
+  font-size: .7rem;
+  padding-top: 1px;
+  margin-left: 10px;
+  padding: 10px;
+  
+  
+}
+.Detaild i
+{
+    margin-left: 15px;
+}
+.Detaild::-webkit-scrollbar
+{
+    display: none;
+}
+#check1:checked ~  .Detail-list .Rating{
+    opacity: 1;
+    position: relative;
+}
+#check1:checked ~  .title-Feedbacks,
+#check1:checked ~  .title-Detailed
+{
+  display: none;
+}
+#check2:checked ~  .title-Rating,
+#check2:checked ~  .title-Detailed
+{
+  display: none;
+}
+#check3:checked ~  .title-Rating, 
+#check3:checked ~  .title-Feedbacks
+{
+  display: none;
+}
+#check2:checked ~ .Detail-list .Feedbacks {
+    opacity: 1;
+    position: relative;
+    transition: 0.5s;
+}
+.Feedbacks p
+{
+    padding-top:5px ;
+    font-size: 1.1rem;
+    color: rgb(48, 48, 48);
+   
+}
+.Feedbacks input
+{
+   width: 250px;
+    display: block;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px 0px 0px rgba(182, 182, 182, 0.548);
+}
+
+#check2:checked ~ .Detail-list .Rating,
+#check2:checked ~ .Detail-list .Detailed
+{
+    opacity: 0;
+    position: absolute;
+    
+   
+}
+#check3:checked ~ .Detail-list .Detailed{
+    opacity: 1;
+    position: relative;
+    transition: 0.5s;
+}
+.Detailed h3
+{
+    font-size: .9rem;
+    margin: 15px;
+    margin-left: 20px;
+    color: rgb(107, 107, 107);
+}
+#check3:checked ~ .Detail-list .Rating,
+#check3:checked ~ .Detail-list .Feedbacks 
+{
+    opacity: 0;
+    position: absolute;
+    
+   
+}

@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*
+{
+    margin-top: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+   
+    
+}
+
+body
+{
+    background-color: #ffffff;
+    padding: 0;
+    display:grid;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+}
+
+.res-logo img
+{
+    display: inline;
+  width: 36%;
+  position: relative;
+  border-radius: 50px;
+  color: #000;
+  margin: 10px;
+}
+#nav 
+{
+    width:17% ;
+    height: 47vw;
+    background-color: #ffffff;
+    font-size: 1.1rem;
+    position: fixed;
+    padding: 10px;
+    flex-wrap:wrap;
+    display:flex;
+    z-index: 1;
+    
+}
+.logo-title h2 , #view h2
+{
+   font-size: 1.5rem;
+   margin-top: 10px;
+   font-family: 'Kirang Haerang', cursive;
+   font-size: 1.3rem;
+}
+.navigation ul{
+    float: left;
+    margin-left: -20px;
+    margin-top: 5px;
+    padding-top: 10px;
+   
+}
+.navigation ul li 
+{
+    display:block;
+    line-height: 19px;
+    margin: 5px 8px;
+    padding-top: 4px;
+    line-height: 40px;
+    
+}
+.navigation ul li a
+{
+   padding: 5px 10px;
+   border-radius: 3px;
+   color: rgba(68, 68, 97, 0.788);
+   font-weight: 800;
+   font-size: 1.1rem;
+    
+}
+.navigation a{
+    color:#000000;
+    font-family: 'Chewy', cursive;
+    font-weight: bolder;
+    margin: 9px;
+    padding: 4px;
+}
+.navigation a:hover{
+    width:100% ;
+    text-align: center;
+    background-color: rgb(59, 121, 214);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+   
+}
+#view
+{
+    background-color: #ffffff;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 20%;
+    top: 0vw;
+    padding: 10px;
+   
+}
+.contain
+{
+    display:flex;
+    position: relative;
+    position: absolute;
+    left:-50px;
+    top : 4vw;
+}
+.user
+{
+    width: 155px;
+    display:flex;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.icon
+{
+    width: 40px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2px;
+    border-radius: 10px;
+    color: #ffffff;
+   
+}
+.icon i{
+    font-weight: 400;
+}
+.title
+{
+    margin-left: 15px;
+    margin-top: 0px;
+}
+.title h4
+{
+    font-size:1rem;
+    height: 20px;
+    color: rgb(180, 181, 182);
+}
+.title p
+{
+    font-size: 1rem;
+    margin-top: -15px;
+    font-weight:bolder;
+}
+.users
+{
+    background-color: rgb(122, 76, 228);
+}
+.Employees
+{
+    background-color: rgb(76, 192, 228);
+}
+.fiteam
+{
+    background-color: rgb(76, 228, 165);
+}
+.Complain
+{
+    background-color: rgb(228, 76, 76);
+}
+.profile
+{
+    background-color: rgba(25, 21, 63, 0.801);
+}
+.ptitle h4{
+    margin-top: -20px;
+}
+#Chart-bar
+{
+    width:47% ;
+    height: 30vw;
+    background-color: #fcfcfcd2;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 18%;
+    top: 15vw;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 1px 0px 0px rgba(201, 201, 201, 0.548);
+}
+.chart-title p ,.ivse-title p ,.item-bar-title p ,.chartpie-title p 
+{
+    height: 35px;
+    color: #363636;
+    font-weight:1000;
+    border-radius: 2px;
+    padding-top: 2px;
+    font-size: 1.3rem;
+    background-color: rgba(159, 159, 189, 0.651);
+    text-align: center;
+    font-weight: 900;
+}
+.chart
+{
+    width: 700px;
+    height:300px;
+    display:block;
+}
+.number
+{
+    width: 50px;
+    height: 100%;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    float: left;
+    margin: 0;
+    padding: 0;
+   
+
+}
+.number li{
+    list-style: none;
+    height: 85px;
+    position:relative;
+    bottom: 35px;
+}
+.number span
+{
+  font-size: 1rem;
+  font-weight: 600;
+  position:absolute;
+  bottom: 0;
+  right: 10px;
+}
+.bars
+{
+    width: 650px;
+    height: 390px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border-radius: 5px;
+}
+.bars li
+{
+    display:table-cell;
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+.bars span{
+    width: 100%;
+    position:absolute;
+    bottom: -90px;
+    right:2px;
+    text-align: center;
+}
+.bars .bar
+{
+    display: block;
+    background: chartreuse;
+    width: 30px;
+    position:absolute;
+    bottom: -55px;
+    left:15px;
+}
+.bars .bar::before
+{
+    color: rgb(0, 0, 0);
+    content: attr(data-percentage)'%';
+    position: relative;
+    bottom: 20px;
+}
+#chart-pie
+{
+    background-color: #f7f2f2bd;
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    left: 70%;
+    top:15.5vw;
+    
+}
+.piechart
+{
+    width: 250px;
+    height: 250px;
+    background: conic-gradient(rgb(53, 150, 214) 0% 92% ,rgb(226, 98, 98) 92% 100%);
+    border-radius: 50%;
+    margin: 50px;
+    margin-top: 42px;
+    transition: .5s;
+    
+}
+.piechart h4
+{
+    position: absolute;
+    left: 50%;
+    top: 15vw;
+    font-size: 1.1rem;
+    color: cornsilk;
+}
+.piechart h5
+{
+    position: absolute;
+    left: 40%;
+    top: 6vw;
+    font-size: 1.2rem;
+    color: cornsilk;
+}
+.info
+{
+    display:flex;
+    padding-left: 30px;
+}
+.info span
+{
+    width: 15px;
+    height: 15px;
+    background-color: darkgoldenrod;
+}
+.info p{
+    font-weight: 900;
+    margin-top: -5px;
+}
+#map
+{
+    width: 78%;
+    position: absolute;
+    left: 20%;
+    top: 80vw;
+    margin-top: 10px;
+}
+#map iframe
+{
+    width: 60%;
+    background-color: #000;
+    margin-top: 10px;
+}
+#map h2
+{
+   font-size: 1.5rem;
+   margin-top: 10px;
+   font-family: 'Kirang Haerang', cursive;
+   font-size: 1.3rem;
+}
+.ivse
+{    width: 47%;
+    position: absolute;
+    left: 20%;
+    top: 50vw;
+}
+#items-bar
+{
+    background-color: #f7f2f2bd;
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    left: 70%;
+    top:45vw; 
+}
+.item-bars
+{
+    width: 450px;
+    height: 390px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border-radius: 5px;
+}
+.charts
+{
+    width: 450px;
+    height:600px;
+    display:block;
+    
+}
+.item-bars span{
+    height: 100%;
+    
+}
+.item-bars li
+{
+    display:table-row;
+    width: 30px;
+    height: 90px;
+    position: relative;
+}
+
+.item-bars .item-bar
+{
+    display: block;
+    background: rgb(255, 102, 0);
+    height: 30px;
+    position:absolute;
+    bottom: 15px;
+    left:15px;
+}
+.item-bars .item-bar::before
+{
+    color: rgb(0, 0, 0);
+    content: attr(data-percentage)'%';
+    position: relative;
+    bottom: 20px;
+}
+#calender
+{
+  
+    position: absolute;
+    left: 69%;
+    top: 87vw;
+}

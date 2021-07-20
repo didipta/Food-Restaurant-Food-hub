@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*
+{
+    margin-top: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+   
+    
+}
+
+body
+{
+    background-color: #ffffff;
+    padding: 0;
+    display:grid;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+}
+.res-logo img
+{
+    display: inline;
+  width: 36%;
+  position: relative;
+  border-radius: 50px;
+  color: #000;
+  margin: 10px;
+}
+#nav 
+{
+    width:20% ;
+    height: 47vw;
+    background-color: #ffffff;
+    font-size: 1.1rem;
+    position: fixed;
+    padding: 10px;
+    flex-wrap:wrap;
+    display:flex;
+    
+}
+.logo-title h2 , #view h2
+{
+   font-size: 1.5rem;
+   margin-top: 10px;
+   font-family: 'Kirang Haerang', cursive;
+   font-size: 1.3rem;
+}
+.navigation ul{
+    float: left;
+    margin-left: -20px;
+    margin-top: 5px;
+    padding-top: 10px;
+   
+}
+.navigation ul li 
+{
+    display:block;
+    line-height: 19px;
+    margin: 5px 8px;
+    padding-top: 4px;
+    line-height: 40px;
+    
+}
+.navigation ul li a
+{
+   padding: 5px 10px;
+   border-radius: 3px;
+   color: rgba(68, 68, 97, 0.788);
+   font-weight: 800;
+   font-size: 1.1rem;
+    
+}
+.navigation a{
+    color:#000000;
+    font-family: 'Chewy', cursive;
+    font-weight: bolder;
+    margin: 9px;
+    padding: 4px;
+}
+.navigation a:hover{
+    width:100% ;
+    text-align: center;
+    background-color: rgb(59, 121, 214);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+   
+}
+.box
+    {
+    display:flex;
+    width: 100%;
+    flex-wrap:wrap;
+}
+.title h2
+{
+    width: 90%;
+  position: absolute;
+  top: -5%;
+  background-color: rgba(156, 154, 154, 0.76);
+  text-align: center;
+}
+#All-info
+{
+    width: 80%;
+    position: absolute;
+    left: 20%;
+    padding: 20px;
+    padding-left: 30px;
+    margin-top: 70px;
+}

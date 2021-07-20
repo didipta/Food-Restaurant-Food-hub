@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Vollkorn:ital@1&family=Zilla+Slab:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Amiri', serif;
+}
+body {
+    display: inline;
+    background-image: url(./img/contract.jpg);
+    background-size: cover;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.resta-logo img
+{
+  display: inline;
+  width: 7%;
+  position: relative;
+  border-radius: 50px;
+  margin: 10px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,.15),
+  -6px -6px 10px -1px rgba(255, 255, 255, .7);
+}
+.contract-info {
+    color: rgb(255, 255, 255);
+    max-width: 400px;
+    line-height: 60px;
+    padding-left: 50px;
+    margin-left: 120px;
+    margin-top: 40px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.contract-info i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+.contract-info i:hover{
+    color: #2E94E3;
+}
+.contract-info a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.contract-form {
+    max-width: 700px;
+    position:absolute;
+    left: 45%;
+    top: 13%;
+}
+.contract-info, .contract-form {
+    flex: 1;
+}
+.contract-form h2 {
+    color: rgb(53, 53, 53);
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.contract-form .text-box {
+    background: #fff;
+    color: #000;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba (0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+    border:none;
+}
+.contract-form .text-box:first-child {
+    margin-right: 15px;
+}
+.contract-form textarea {
+    background: #fff;
+    color: #000;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.contract-form .send-btn {
+    float: right;
+    background: #2E94E3;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+}
+.contract-form .send-btn:hover {
+    background: #252525;
+    color: rgb(255, 255, 255);
+}

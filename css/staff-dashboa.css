@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*
+{
+    margin-top: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+   
+    
+}
+
+body
+{
+    background-color: #ffffff;
+    padding: 0;
+    display:grid;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+}
+.res-logo img
+{
+    display: inline;
+  width: 36%;
+  position: relative;
+  border-radius: 50px;
+  color: #000;
+  margin: 10px;
+}
+#nav 
+{
+    width:20% ;
+    height: 47vw;
+    background-color: #ffffff;
+    font-size: 1.1rem;
+    position: fixed;
+    padding: 10px;
+    flex-wrap:wrap;
+    display:flex;
+    
+}
+.logo-title h2 , #view h2
+{
+   font-size: 1.5rem;
+   margin-top: 10px;
+   font-family: 'Kirang Haerang', cursive;
+   font-size: 1.3rem;
+}
+.navigation ul{
+    float: left;
+    margin-left: -20px;
+    margin-top: 5px;
+    padding-top: 10px;
+   
+}
+.navigation ul li 
+{
+    display:block;
+    line-height: 19px;
+    margin: 5px 8px;
+    padding-top: 4px;
+    line-height: 40px;
+    
+}
+.navigation ul li a
+{
+   padding: 5px 10px;
+   border-radius: 3px;
+   color: rgba(68, 68, 97, 0.788);
+   font-weight: 800;
+   font-size: 1.1rem;
+    
+}
+.navigation a{
+    color:#000000;
+    font-family: 'Chewy', cursive;
+    font-weight: bolder;
+    margin: 9px;
+    padding: 4px;
+}
+.navigation a:hover{
+    width:100% ;
+    text-align: center;
+    background-color: rgb(82, 82, 82);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+   
+}
+#view
+{
+    background-color: #ffffff;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 20%;
+    top: 0vw;
+    padding: 10px;
+   
+}
+.contain
+{
+    display:flex;
+    position: relative;
+    position: absolute;
+    left:-50px;
+    top : 4vw;
+}
+.order-head
+{
+    width: 195px;
+    display:flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.icon
+{
+    width: 40px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2px;
+    border-radius: 10px;
+    color: #ffffff;
+   
+}
+.icon i{
+    font-weight: 400;
+}
+.title
+{
+    margin-left: 15px;
+    margin-top: 0px;
+}
+.title h4
+{
+    font-size:1rem;
+    height: 20px;
+    color: rgb(180, 181, 182);
+}
+.title p
+{
+    font-size: 1rem;
+    margin-top: -15px;
+    font-weight:bolder;
+}
+.Total
+{
+    background-color: rgb(223, 76, 228);
+}
+.pending
+{
+    background-color: rgb(228, 76, 76);
+}
+
+.Dispatched
+{
+    background-color: rgb(76, 228, 76);
+}
+.profile
+{
+    background-color: rgba(25, 21, 63, 0.801);
+}
+.Man
+{
+    background-color: rgb(228, 167, 76);
+}
+.ptitle h4{
+    margin-top: -20px;
+}
+#calender
+{
+  
+    position: absolute;
+    left: 69%;
+    top: 15vw;
+}
+#order-list
+{
+    
+    position: absolute;
+    left: 18%;
+    top:15vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(82, 82, 85, 0.2) 1px 1px 5px 1px;
+    border-radius: 10px;
+}
+
+.list-table 
+{
+    width:750px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.list-td
+{
+    height: 50px;
+    background-color: rgb(145, 145, 236);
+    color: rgb(255, 255, 255);
+    
+}
+.list-tr
+{
+    height: 50px;
+    color: rgb(58, 54, 54);
+    font-weight: 700;
+}
+.list-tr:hover{
+    background-color: rgb(215, 231, 247);
+    box-shadow: rgba(82, 82, 85, 0.2) 10px 10px 15px 5px;
+    
+}
+.edit-delet
+{
+    width: 70px;
+    height: 50px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 2px;
+    margin-left: -5px;
+    margin-top: -35px;
+    color: rgb(22, 22, 22);
+    font-weight: 500;
+    position: absolute;
+    display: none;
+    box-shadow: rgba(82, 82, 85, 0.2) 1px 1px 5px 1px;
+
+}
+.edit-delet p{
+    cursor: pointer;
+   
+}
+.setting:hover .edit-delet
+{
+    display: block;
+    transition: .5s;
+}
+.list-footer 
+{
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+}
+#emp-list
+{
+   
+    position: absolute;
+    left: 68%;
+    top: 46vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(82, 82, 85, 0.2) 1px 1px 5px 1px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.eml-list-table
+{
+    width:400px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.eml-list-td
+{
+    height: 50px;
+    background-color: rgb(177, 145, 236);
+    color: rgb(255, 255, 255);
+}
+.eml-list-tr
+{
+    height: 50px;
+    color: rgb(73, 70, 70);
+    font-weight: 700;
+}
+.eml-list-tr:hover{
+    background-color: rgb(215, 247, 239);
+    box-shadow: rgba(82, 82, 85, 0.2) 10px 10px 15px 5px;
+    
+}
+#Product-Details
+{
+    
+    position: absolute;
+    left: 18%;
+    top:63vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(82, 82, 85, 0.2) 1px 1px 5px 1px;
+    border-radius: 10px;
+}
+.Product-list-table
+{
+    width:750px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.Product-list-td
+{
+    height: 50px;
+    background-color: rgb(225, 145, 236);
+    color: rgb(255, 255, 255);
+}
+.Product-list-tr
+{
+    height: 50px;
+    color: rgb(58, 54, 54);
+    font-weight: 700;
+}
+.Product-list-tr:hover{
+    background-color: rgb(247, 215, 237);
+    box-shadow: rgba(82, 82, 85, 0.2) 10px 10px 15px 5px;
+    
+}

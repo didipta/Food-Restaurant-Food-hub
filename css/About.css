@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Vollkorn:ital@1&family=Zilla+Slab:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Amiri', serif;
+}
+body {
+    display: inline;
+    background-image: url(./img/about.jpg);
+    background-size: cover;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.resta-logo img
+{
+  display: inline;
+  width: 7%;
+  position: relative;
+  border-radius: 50px;
+  margin: 10px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,.15),
+  -6px -6px 10px -1px rgba(255, 255, 255, .7);
+}
+.container {
+    width: 45%;
+    float: left;
+    margin-top: 10px;
+    padding: 110px;
+}
+.container h1 {
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.container p {
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.option {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.option a{
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 5px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+    font-weight: 900;
+}
+.option a:hover {
+    border-radius: 25px;
+    color: #fff;
+    background: #000;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+   margin-left: -10px;
+}
+.icon a {
+    display: flex;
+    height: 45px;
+    width: 85px;
+    margin: 5px;
+    border-radius: 8px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, .7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform .5s;
+}
+.icon a i{
+    font-size: 25px;
+    color: #777;
+    transition: transform .5s;
+}
+.icon a:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, .7),
+                -.5px -.5px  0px rgba(255, 255, 255, 1),
+                .5px .5px 0px  rgba(0, 0, 0, .15),
+                0px 12px 10px -10px rgba(0, 0, 0, .05);
+    border: 1px solid rgba(0, 0, 0, .01);
+    transform: translateY(2px);
+
+}
+.icon a:hover i {
+    transform: scale(.90);
+}
+.icon a:hover .fa-facebook-f {
+    color: #3b5998;
+}
+.icon a:hover .fa-twitter {
+    color: #00acee;
+}
+.icon a:hover .fa-youtube {
+    color: #ff0000;
+}
+.icon a:hover .fa-linkedin-in {
+    color: #0e76a8;
+}
+.icon a:hover .fa-github {
+    color: #000;
+}
+.icon a:hover .fa-instagram {
+    color: #e1306c;
+}

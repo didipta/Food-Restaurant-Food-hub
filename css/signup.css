@@ -1,0 +1,58 @@
+#Sign-up
+{
+  width: 35%;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.507);
+  border-radius: 10px;
+  position: absolute;
+  left:10%;
+  top: 2%;
+  font-weight: 900;
+ 
+}
+
+.circul-signup:before
+  {
+  content: "";
+  position: absolute;
+  height: 2000px;
+  width: 2000px;
+  top: -10%;
+  right:-80%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.507);
+  border-radius: 50%;
+  opacity: 0.71;
+  z-index: -1;
+  }
+
+  .signin 
+  {
+    position: absolute;
+    left: 65%;
+    top: 30%;
+    transform: translateY(-50%,-50%);
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    
+  }
+  .circul-signup img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid rgb(133, 133, 133);
+    position: absolute;
+    left: 90%;
+    top: 2%;
+    transform: translateY(-50%,-50%);
+
+  }
+  .social
+  {
+    position: absolute;
+    left: 72%;
+    top: 57%;
+    transform: translateY(-50%,-50%);
+    color: rgb(255, 255, 255);
+  }

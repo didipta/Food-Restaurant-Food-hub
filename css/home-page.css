@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*
+{
+    margin-top: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+body
+{
+    background-color: #f0f0f0;
+    padding: 0;
+    display:grid;
+    transition: .5s;
+}
+div
+{
+    transition-delay: .1s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#nav 
+{
+    width:70% ;
+    height: 60px;
+    background-color: #ffffff;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 17%;
+    top: 4vw;
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: 1px 1px 1px 1px rgba(201, 201, 201, 0.548);
+    text-align: center;
+    
+}
+.navigation ul{
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.navigation ul li 
+{
+    display: inline;
+    line-height: 19px;
+    margin: 5px 8px;
+    padding-top: 4px;
+    
+}
+.navigation ul li a
+{
+   padding: 7px 13px;
+   border-radius: 3px;
+    
+}
+.navigation a{
+    color:#000000;
+    font-family: 'Chewy', cursive;
+    font-weight: bolder;
+    margin: 9px;
+    padding: 1px;
+}
+.navigation a:hover{
+    width:100% ;
+    text-align: center;
+    background-color: rgba(185, 185, 185, 0.534);
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+   
+}
+
+#img-bar
+{
+    box-sizing: border-box;
+    width: 45%;
+    height: 330px;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 18.5%;
+    top:9vw;
+    
+    box-shadow: 1px 1px 1px 1px rgba(134, 134, 134, 0.548);
+}
+.Slide-1
+{
+    width: 100%;
+    
+    background-image: url(./img/pizzza.jpg);
+    background-size: cover;
+    margin:0px;
+}
+.Slide-1 .content
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(238, 234, 234, 0.699);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    transition: all .5s ease-out;
+
+}
+.Slide-1 .content .title
+{
+    width: 50%;
+    height: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center; 
+    
+     
+}
+
+.Slide-1 .content .title h2 {
+    margin-left: 28px;
+    margin-top: 18px;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.Slide-1 .content .line
+{
+    content: "";
+    width: 4px;
+    height: 85%;
+    background-color: black;
+    margin-top: 10px;
+}
+.Slide-1 .content .desc {    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 17px;
+    padding-top: 35px;
+}
+.Slide-1 .content .desc p
+{
+    font-weight:700;
+    font-size:1vw;
+}
+#Combo
+{
+    display:inline-flex;
+    width: 100%;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0%;
+    top:100%;
+    box-shadow: 1px 1px 1px 1px rgba(134, 134, 134, 0.548);
+    margin-top: 10px;
+}
+#Combo .combo img{
+    width: 90px;
+    border-radius: 10px;
+    margin: 5px;
+    padding-left: 5px;
+
+}
+#Combo .sp {
+    display:flexbox;
+    position: relative;
+    width: 720px;
+    height: 97px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 4px;
+    
+}
+#Combo .sp h2 {
+    position: relative;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 1.6vw;
+    margin-top: 4px;
+    
+}
+#Combo .sp h2:hover
+{
+    color: rgb(83, 83, 83);
+}
+#Combo .sp p
+{
+    display:inline;
+    color: rgb(192, 192, 192);
+    font-size: 1.1rem;
+    font-weight: 900;
+    background-color:none;
+    padding-top:-10px;
+}
+#Combo button
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height:98px ;
+    justify-self:center;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 97px;
+    padding: 25px;
+    font-size: 2rem;
+    box-shadow: 1px 1px 1px 1px rgba(134, 134, 134, 0.548);
+    cursor: pointer;
+
+}
+#Combo button:hover
+{
+    background-color: rgb(53, 53, 53);
+    transition: 1s;
+    color: rgb(255, 255, 255);
+}
+#con
+{
+    width: 22%;
+    height: 440px;
+    background-color: #FFFFFF;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(134, 134, 134, 0.548);
+    position: absolute;
+    left: 64%;
+    top:9vw;
+   
+    
+}
+
+.head h1
+{
+  margin: 0px;
+  padding: 0px;
+  background-color: #515151;
+  text-align: center;
+  font-weight:bold;
+  color: #ffffff;
+  padding: 10px;
+}
+.box
+{
+    
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-left: 20px;
+}
+.box input
+{
+    width: 95%;
+    height: 30px;
+    background-color:  rgb(228, 222, 222);
+    border: none;
+    outline: none;
+    border: none;
+    box-shadow: .5px .5px .5px .5px rgba(161, 161, 161, 0.37);
+    font-size: .8rem; 
+    color: rgb(0, 0, 0);
+    font-weight:700;
+    padding-left:10px;
+    margin-top: 5px;
+}
+.box input:first-child
+{
+    margin: 10px;
+}
+
+.boxss textarea 
+{
+    width: 95%;
+    height: 20vh;
+    background-color: rgb(228, 222, 222);
+    margin-top: 5px;
+    font-size: 1rem; 
+    color: rgb(0, 0, 0);
+    font-weight:700;
+    padding-left:10px;
+    outline: none;
+    border: none;
+    resize: none;
+
+}
+.btn {
+    width: 46%;
+    border: none;
+    outline: none;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 11px 0;
+    margin-left: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 900;
+  }
+  
+  .btn:hover {
+    background-color: #dffbfc;
+    color: rgb(0, 0, 0);
+  }
+  .cancel
+  {
+      background-color: black;
+      color: #fff;
+  }
+  .send
+  {
+      background-color: rgb(194, 194, 194);
+      color: rgb(0, 0, 0);
+  }
+
+  #Biryani
+  {
+    
+    width:75%;
+    height: 200px;
+    position: absolute;
+    left: 17%;
+    top: 40vw;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+  }
+  #Biryani h1{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 20px;
+    color: rgba(48, 43, 43, 0.568);
+    font-weight: 900;
+  }
+  
+  .Biryani-item ul li
+  {
+    
+    display:inline-block;
+    line-height: 19px;
+    margin: 5px 8px;
+    padding-top: 4px;
+  }
+  .item img{
+      width: 120px;
+      height: 100px;
+      margin-top: 10PX;
+      border-radius: 10px;
+      position:relative;
+
+    }
+    .item img :hover
+    {
+        transform:scale(2,2);
+        transition:2s transform;
+      }
+  .item
+  {
+      background-color: #ffffff;
+      width: 150px;
+      width: 200px;
+      border-radius: 1px;
+      box-shadow: 1px 1px 1px 1px rgba(71, 71, 71, 0.37);
+      text-align: center;
+      overflow: hidden;
+      font-weight: 800;
+      margin-left: 10px;
+  }
+  .item p{
+      color: rgba(133, 133, 133, 0.733);
+  }
+.item-i i{
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    background: rgba(153, 153, 153, 0.692);
+    padding-left: 20px;
+    box-shadow: none;box-shadow: 1px 1px 1px 1px rgba(71, 71, 71, 0.37);
+    border-radius: 50%;
+    position: absolute;
+    top: 65%;
+
+}
+#six-pack-Burger
+{
+    display: flex;
+    width:70%;
+    height: 300px;
+    position: absolute;
+    left: 17%;
+    top: 57vw;
+    background-color: #1D1E21;
+    box-shadow: none;
+    box-shadow: 1px 1px 1px 1px rgb(220, 231, 121);
+}
+.Burger-img img
+{
+    width: 300px;
+    height: 300px;
+}
+.burger-title
+{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+.burger-title h1
+{
+    color:wheat;
+    font-family: Rage;
+    font-size: 3rem;
+    font-weight: 900;
+    
+}
+.burger-title h3
+{
+    color: #FFEC71;
+    font-size: 1.6rem;
+    margin-top: -40px;
+    font-family: MV Boli;
+    margin-left: 50px;
+}
+.burger-title p{
+    color:white ;
+    margin-left: 30px;
+    font-size: 1.1rem;
+}
+.burger-title h5
+{
+    color:rgb(126, 123, 123);
+    font-size: 1.5rem;
+    font-family: MV Boli;
+    margin-left: 120px;
+}
+#Col-4
+{
+    display: flex;
+    position: absolute;
+    left: 15%;
+    top: 77.5vw;
+    transform: translateY(-50%,-50%);
+}
+
+.img-1 img{
+    width:350px ;
+    height: 220px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 15px;
+    display:grid;
+}
+.img-1 .col-4-title
+{
+    
+    width:350px;
+    height: 100px;
+    position: absolute;
+    bottom: 5px;
+    margin-left:15px;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+.col-4-title p
+{
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: 700;
+    color: rgba(53, 53, 53, 0.932);
+}
+
+.col-4-title h5
+{
+    font-size: 1.1rem;
+   margin-left: 260px;
+   margin-top: -20px;
+   font-weight: 900;
+   color: #504d4d;
+}
+.Col-5 a
+{
+    display:flex;
+    width:70%;
+    height: 300px;
+    position: absolute;
+    left: 17%;
+    top: 93vw;
+    background-color: #D1CFDA;
+    box-shadow: none;box-shadow: 1px 1px 1px 1px rgba(71, 71, 71, 0.37);
+    
+
+    
+}
+
+.col-5-img img{
+    width: 400px;
+    height: 300px;
+}
+
+.col-5-title
+{
+   
+    margin: 15px;
+
+}
+.col-5-title h1{
+    margin-top: 10px;
+    font-family: Rage;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #8A041A;
+}
+.col-5-title h3
+{
+    font-family: Script MT;
+    margin-left: 5px;
+    font-size: 1.7rem;
+    color: #A76F54;
+}
+.col-5-title p
+{
+    width: 550px;
+    color: rgb(94, 89, 89);
+}
+.col-5-title h5
+{
+    font-size: 1.4rem;
+    color: #504d4d;
+    font-family: MV Boli;
+}
+#Col-6
+{
+    display:flex;
+    width:70%;
+    height: 300px;
+    position: absolute;
+    left: 17%;
+    top: 113.5vw;
+}
+.img-2 img{
+    width:250px ;
+    height: 220px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 15px;
+    display:grid;
+    border: 1px solid rgb(180, 177, 170);
+    box-shadow: .5px .5px .5px .5px rgb(168, 168, 168);
+}
+.img-2 .col-6-title
+{
+    
+    width:247px;
+    height: 90px;
+    position: absolute;
+    bottom: 75px;
+    border-radius: 10px;
+    margin-left:16px;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+.col-6-title p
+{
+    font-size: 1.5rem;
+    font-family: MV Boli;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.932);
+}
+.col-7 
+{
+    display:flex;
+    width:70%;
+    height: 300px;
+    position: absolute;
+    left: 17%;
+    top: 129.5vw;
+    background-color: #EFF1EE;
+    box-shadow: none;
+    box-shadow: 1px 1px 1px 1px rgb(158, 158, 153);
+}
+.img-3 img{
+    width:450px ;
+    height: 298px;
+    margin-left: 0px;
+    display:grid;
+    
+   
+}
+.col-7-title h3
+{
+ font-size: 2.2rem;
+ font-family:Monotype Corsiva ;
+ font-weight: 900;
+ margin: 10px;
+ color: #033b3b;
+}
+.col-7-title p
+{
+    width: 520px;
+    font-size: 1rem;
+    margin: 15px;
+    color: rgb(90, 90, 90);
+    
+}
+.col-7-title button
+{
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    margin: 10px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.col-7-title button:hover
+{
+   background-color: rgb(53, 52, 52);
+   transition: .7s;
+   color: rgb(185, 185, 185);
+}
+#footer
+{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 150vw;
+    background-color: #434343;
+}
