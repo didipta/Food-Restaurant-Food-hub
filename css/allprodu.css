@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*
+{
+    margin-top: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.1rem;
+    
+}
+body {
+    width: 95%;
+    background: #ffffff;
+    padding: 0;
+    display: grid;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    
+}
+::-webkit-scrollbar-track
+{
+    border-radius: 5px;
+    box-shadow: inset 1px 0px 0px rgba(216, 211, 211, 0.548);
+
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    background-color: #464646;
+}
+#Add-product
+{
+    width: 50%;
+    height: 450px;
+    background-color: #FFFFFF;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(134, 134, 134, 0.548);
+    position: absolute;
+    left: 30%;
+    top:2vw;
+    border-radius: 3px;
+    
+   
+    
+}
+.header h1
+{
+  margin: 0px;
+  padding: 0px;
+  background-color: #71afff;
+  text-align: center;
+  font-weight:bold;
+  color: #ffffff;
+  padding: 10px;
+}
+.addproduct
+{
+    
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-left: 20px;
+}
+.addproduct input ,.selecttype
+{
+    width: 70%;
+    height: 30px;
+    background-color:  rgb(228, 222, 222);
+    border: none;
+    outline: none;
+    border: none;
+    box-shadow: .5px .5px .5px .5px rgba(161, 161, 161, 0.37);
+    font-size: .8rem; 
+    color: rgb(0, 0, 0);
+    font-weight:700;
+    padding-left:10px;
+    margin: 5px;
+    margin-left: 20px;
+    padding-top: 3px;
+   
+}
+.addproduct input:first-child
+{
+    margin: 10px;
+}
+
+.btn {
+  width: 46%;
+  border: none;
+  outline: none;
+  height: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-left: 152px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 900;
+  background-image: linear-gradient(45deg,rgb(34, 95, 226),rgb(62, 207, 207));
+}
+
+.btn:hover {
+
+  color: rgb(0, 0, 0);
+}
+#show-table
+{
+  position: absolute;
+    left: 20%;
+    top:38vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(82, 82, 85, 0.2) 1px 1px 5px 1px;
+    border-radius: 10px;
+}
+
+.list-table 
+{
+    width:1150px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.list-td
+{
+    height: 60px;
+    background-color: rgb(203, 34, 255);
+    color: rgb(255, 255, 255);
+    
+}
+.list-tr
+{
+    height: 70px;
+    color: rgb(58, 54, 54);
+    font-weight: 700;
+}
+.list-tr:hover{
+    background-color: rgb(255, 175, 219);
+    box-shadow: rgba(82, 82, 85, 0.2) 10px 10px 15px 5px;
+    
+}
+.edit-delet
+{
+    width: 70px;
+    height: 65px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 2px;
+    margin-left: -5px;
+    margin-top: -45px;
+    color: rgb(22, 22, 22);
+    font-weight: 500;
+    position: absolute;
+    display: none;
+    box-shadow: rgba(82, 82, 85, 0.2) 1px 1px 5px 1px;
+
+}
+.edit-delet p{
+    cursor: pointer;
+   
+}
+.setting:hover .edit-delet
+{
+    display: block;
+    transition: .5s;
+}
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 28px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+#t-i
+{
+  position: absolute;
+  left: 85%;
+}
+.total-iteam
+{
+  width: 200px;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: rgba(82, 82, 85, 0.2) 1px 1px 5px 1px;
+}
+.total-iteam h3{
+  color: rgb(92, 168, 255);
+}
+.total-iteam p
+{
+  margin-top: -10px;
+  font-weight: 900;
+  color: rgb(109, 104, 104);
+}
