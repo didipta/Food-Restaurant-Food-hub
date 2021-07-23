@@ -94,17 +94,18 @@ a{
 }
 
 .btn {
-  width: 46%;
+  width: 36%;
   border: none;
   outline: none;
   height: 35px;
   color: rgb(255, 255, 255);
   font-weight: 600;
-  margin-left: 152px;
+  margin-left: 60px;
   cursor: pointer;
   transition: 0.5s;
   font-weight: 900;
   background-image: linear-gradient(45deg,rgb(34, 95, 226),rgb(62, 207, 207));
+  float: left;
 }
 
 .btn:hover {
@@ -259,4 +260,17 @@ a{
   margin-top: -10px;
   font-weight: 900;
   color: rgb(109, 104, 104);
+}
+#productupdate
+{
+    width: 40%;
+    height: 400px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(134, 134, 134, 0.548);
+    position: fixed;
+    border-radius: 3px;
+    margin-left: 500px;
+    display:none;
+    
 }
